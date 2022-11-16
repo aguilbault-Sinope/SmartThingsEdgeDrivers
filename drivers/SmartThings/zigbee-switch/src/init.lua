@@ -83,6 +83,7 @@ local zigbee_switch_driver_template = {
     require("rexense"),
     require("sinope"),
     require("sinope-dimmer"),
+    require("sinope-load-controller"),
     require("zigbee-dimmer-power-energy"),
     require("zigbee-metering-plug-power-consumption-report"),
     require("jasco"),
